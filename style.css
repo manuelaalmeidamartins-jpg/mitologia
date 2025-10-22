@@ -1,0 +1,25 @@
+body{
+     color: rgb(241, 241, 247);
+     background: rgb(85, 135, 241);
+     margin:0px;
+     font-family: "Satisfy", sans-serif;
+}
+
+header{
+     border-bottom: solid 2px rgb(255, 255, 255);
+     padding: 20px;
+     font-size: 30px;
+     color:rgb(68, 34, 221)
+}
+
+section{
+     background: rgb(39, 109, 238);
+     padding-bottom: 80px;
+     padding-top: 80 px;
+     display: flex;
+     justify-content: center;
+}
+
+.chamada-texto{
+     margin-right: 5%;
+}
