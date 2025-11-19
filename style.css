@@ -3,6 +3,7 @@ body{
      background: rgb(85, 135, 241);
      margin:0px;
      font-family: "Satisfy", sans-serif;
+     margin-bottom: 100px;
 }
 header{
      border-bottom: solid 2px rgb(255, 255, 255);
@@ -20,9 +21,13 @@ section{
 .chamada-texto{
      margin-right: 5%;
 }
-img{
-     height: 200px;
+h1{
+     font-size: 40px;
 }
+p{
+     font-size: 20px;
+}
+
 .categoria-vídeos{
      display: flex;
      overflow-x: auto;
@@ -31,4 +36,16 @@ img{
 .categoria{
      padding-left: 20px;
      padding-right: 20px;
+     margin-top: 50px;
+}
+.categoria-vídeos img{
+     opacity: 0.5;
+     height: 200px;
+}
+.categoria-vídeos img:hover{
+     opacity: 1.0;
+     border: 1px solid rgb(94, 158, 211);
+}
+.categoria h2{
+     color:rgb(102, 102, 233)
 }
