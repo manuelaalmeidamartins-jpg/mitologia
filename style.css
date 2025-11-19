@@ -9,12 +9,12 @@ header{
      border-bottom: solid 2px rgb(255, 255, 255);
      padding: 20px;
      font-size: 30px;
-     color:rgb(68, 34, 221)
+     color:rgb(68, 34, 221);
 }
-section{
+.chamada{
      background: rgb(39, 109, 238);
      padding-bottom: 80px;
-     padding-top: 80 px;
+     padding-top: 80px;
      display: flex;
      justify-content: center;
 }
@@ -28,7 +28,7 @@ p{
      font-size: 20px;
 }
 
-.categoria-vídeos{
+.categoria-videos{
      display: flex;
      overflow-x: auto;
      gap: 10px;
@@ -38,14 +38,14 @@ p{
      padding-right: 20px;
      margin-top: 50px;
 }
-.categoria-vídeos img{
+.categoria-videos img{
      opacity: 0.5;
      height: 200px;
 }
-.categoria-vídeos img:hover{
+.categoria-videos img:hover{
      opacity: 1.0;
      border: 1px solid rgb(94, 158, 211);
 }
 .categoria h2{
-     color:rgb(102, 102, 233)
+     color:rgb(95, 150, 223)
 }
